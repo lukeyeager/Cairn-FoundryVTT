@@ -1,122 +1,121 @@
 {
-  "id": "cairn",
-  "title": "Cairn",
-  "description": "Cairn for FoundryVTT",
-  "version": "0.10.28",
+  "id": "monolith",
+  "title": "Monolith",
+  "description": "Monolith for FoundryVTT",
+  "version": "0.1",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   "license": "LICENSE.txt",
-  "url": "https://github.com/yochaigal/Cairn-FoundryVTT/",
-  "manifest": "https://github.com/yochaigal/Cairn-FoundryVTT/releases/latest/download/system.json",
-  "download": "https://github.com/yochaigal/Cairn-FoundryVTT/releases/latest/download/system.zip",
+  "url": "https://github.com/lyeager/Monolith-FoundryVTT",
+  "manifest": "https://github.com/lyeager/Monolith-FoundryVTT/releases/latest/download/system.json",
+  "download": "https://github.com/lyeager/Monolith-FoundryVTT/releases/latest/download/system.zip",
   "authors": [
     {
-      "name": "yochaigal",
-      "url": "https://yochaigal.itch.io/"
+      "name": "Luke Yeager"
     }
   ],
-  "esmodules": ["module/cairn.js"],
-  "styles": ["css/cairn.css"],
+  "esmodules": ["module/monolith.js"],
+  "styles": ["css/monolith.css"],
   "packs": [
     {
       "name": "armor",
       "label": "Armor",
       "path": "packs/armor.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "character-traits",
       "label": "Character Traits",
       "path": "packs/character-traits.db",
       "type": "RollTable",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "expeditionary-gear",
       "label": "Expeditionary Gear",
       "path": "packs/expeditionary-gear.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "extra",
       "label": "Extra",
       "path": "packs/extra.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "gear-tables",
       "label": "Gear Tables",
       "path": "packs/gear-tables.db",
       "type": "RollTable",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "character-creation-tables-srd",
       "label": "Character Creation Tables - SRD",
       "path": "packs/character-creation-tables-srd.db",
       "type": "RollTable",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "utils",
       "label": "Utils",
       "path": "packs/utils.db",
       "type": "RollTable",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "macros",
       "label": "Macros",
       "path": "packs/macros.db",
       "type": "Macro",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "monsters",
       "label": "Monsters",
       "path": "packs/monsters.db",
       "type": "Actor",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "spellbooks",
       "label": "Spellbooks",
       "path": "packs/spellbooks.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "more-spellbooks",
       "label": "More Spellbooks",
       "path": "packs/more-spellbooks.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "tools",
       "label": "Tools",
       "path": "packs/tools.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "trinkets",
       "label": "Trinkets",
       "path": "packs/trinkets.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     },
     {
       "name": "weapons",
       "label": "Weapons",
       "path": "packs/weapons.db",
       "type": "Item",
-      "system": "cairn"
+      "system": "monolith"
     }
   ],
   "scripts": [],
@@ -125,26 +124,6 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    },
-    {
-      "lang": "da",
-      "name": "Dansk",
-      "path": "lang/da.json"
-    },
-    {
-      "lang": "fr",
-      "name": "Français",
-      "path": "lang/fr.json"
-    },
-    {
-      "lang": "pt-BR",
-      "name": "Português brasileiro",
-      "path": "lang/pt-BR.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch",
-      "path": "lang/de.json"
     }
   ],
   "gridDistance": 5,

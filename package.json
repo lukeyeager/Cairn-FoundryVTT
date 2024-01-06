@@ -1,13 +1,13 @@
 {
-  "name": "cairn",
-  "version": "1.0.0",
+  "name": "monolith",
+  "version": "0.1",
   "scripts": {
     "lint": "eslint --fix --ext .js ./module --format node_modules/eslint-plugin-i18n-json/formatter.js lang/*"
   },
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "smcabrera",
+  "author": "lukeyeager",
   "license": "MIT",
   "private": true,
   "devDependencies": {
